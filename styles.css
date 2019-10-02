@@ -1,0 +1,751 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+.Header {
+    height: 72px;
+    background-color: #222222;
+}
+
+.SectionsContainer {
+    display: flex;
+    flex-direction: column;
+    /*width: 100%;*/
+    overflow: hidden;
+}
+
+.Section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Section-cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(
+            rgba(0, 0, 0, .7),
+            rgba(0, 0, 0, .7)
+    ), url("assets/bg/feature_bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.Section-cover-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+
+    width: 100%;
+    max-width: 1000px;
+}
+
+.Section-cover-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+    z-index: 1000;
+}
+
+.Section-cover-actions > :not(:last-child) {
+    margin: 0 16px 0 0;
+}
+
+.Cover {
+    display: block;
+    width: 70%;
+}
+
+.Cover-button {
+    display: block;
+    padding: 8px 12px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+}
+
+.Cover-button--tinted {
+    color: #6FCF97;
+    border-color: #6FCF97;
+}
+
+.Cover-green {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('assets/bg/green_cover.svg') no-repeat right center;
+    background-size: contain;
+}
+
+.Section-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    min-height: 80px;
+    border-bottom: 1px solid #eaeaea;
+
+    color: #333333;
+}
+
+.Section-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+
+    max-width: 1000px;
+    width: 100%;
+}
+
+.Info {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+
+    flex: 1;
+
+    color: #000;
+}
+
+.Info-element {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.Info-element:not(:last-child) {
+    margin-right: 50px;
+}
+
+.Info-element-value {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Info-element-name {
+    margin-top: 4px;
+
+    font-size: 14px;
+    color: #555;
+}
+
+.Actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.Actions-button {
+    display: block;
+
+    border: 2px solid #222;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    user-select: none;
+
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.Section-promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Section-promo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 128px 0;
+}
+
+.Section-promo-container > :not(:last-child) {
+    margin: 0 112px 0 0;
+}
+
+.Promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222;
+}
+
+.Promo-icon {
+    width: 128px;
+    height: 128px;
+}
+
+.Promo-title {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 42px;
+    display: block;
+}
+
+.Section-EventDescription {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #111;
+    color: #e0e0e0;
+}
+
+.Section-EventDescription--container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    align-items: center;
+    margin: 96px 0;
+}
+
+.EventDescription-title {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 64px;
+    color: #6FCF97;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 52px;
+}
+
+.EventDescription-value > b {
+    color: #6FCF97;
+}
+
+.Section-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 72px 0 0 0;
+}
+
+.Section-main-container {
+    display: flex;
+
+    flex: 0 0 100%;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.ContentColumn {
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    align-items: center;
+}
+
+.ContentColumn:first-child {
+    margin-top: 42px;
+}
+
+.ContentColumn-Section {
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px;
+
+    flex: 1;
+}
+
+.ContentColumn-Section > h2 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 64px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.Venue {
+    align-items: center;
+    max-width: 700px;
+    overflow: hidden;
+    margin-bottom: 128px;
+}
+
+.Venue-Gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 128px;
+}
+
+.Venue-Gallery > *:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.Venue-Gallery .ImageWrapper {
+    width: 100%;
+}
+
+.Venue-Gallery .ImageWrapper > img {
+    width: 100%;
+}
+
+.Venue-Gallery-Row {
+    display: flex;
+    flex-direction: row;
+}
+
+.Venue-Gallery-Row > .ImageWrapper:not(:last-child) {
+    margin: 0 24px 0 0;
+}
+
+.Socials {
+    flex-direction: row;
+    margin-bottom: 128px;
+    justify-content: center;
+}
+
+.Socials > *:not(:last-child) {
+    margin-right: 24px;
+}
+
+.ContentColumn-Divider {
+    height: 1px;
+    background-color: #eaeaea;
+    margin: 24px 0;
+}
+
+.EventDescription {
+    flex-direction: column;
+    margin: 32px 24px 98px 24px;
+    align-items: center;
+}
+
+.EventDescription-value {
+    text-align: center;
+    max-width: 600px;
+    font-size: 24px;
+}
+
+.ContentColumn-Section-title {
+    font-size: 18px;
+    margin: 0 0 12px 0;
+}
+
+.Speakers {
+    align-items: center;
+    max-width: 900px;
+    overflow: hidden;
+    margin-bottom: 128px;
+    flex-direction: column;
+}
+
+.Speakers-Grid {
+    margin: 64px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Speakers-Grid > * {
+    margin: 48px 52px 0 52px;
+}
+
+.Speaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Speaker-img {
+    width: 128px;
+    height: 128px;
+    border-radius: 64px;
+    background-color: #eaeaea;
+
+    overflow: hidden;
+}
+
+.Speaker-name {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+    color: #222;
+}
+
+.Speaker-topic {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 8px;
+    color: #222;
+    font-weight: 700;
+}
+
+.Speaker-company {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Speaker-company-logo {
+    width: 24px;
+    height: 24px;
+
+    overflow: hidden;
+}
+
+.Speaker-company-name {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #555;
+}
+
+/*
+.Schedule-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+    margin: 0 0 0 42px;
+}
+
+.Schedule-column:last-child {
+    margin: 0 42px 0 42px;
+}
+
+.Schedule-column > :not(:first-child) {
+    margin: 24px 0 0 0;
+}
+
+.Schedule-room {
+    border: 2px solid #000000;
+    border-radius: 5px;
+
+    display: block;
+
+    padding: 8px 12px;
+    cursor: pointer;
+    user-select: none;
+
+    color: #000000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.Schedule-room-green {
+    border-color: #219653;
+    color: #219653;
+}
+
+.Schedule-room-purple {
+    border-color: #9B51E0;
+    color: #9B51E0;
+}*/
+
+/*.SideColumn {
+    display: flex;
+    flex-direction: column;
+
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 300px;
+}
+
+.Timetable-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.Timetable-buttons > :not(:first-child) {
+    margin-left: 8px;
+}
+
+.Timetable-button {
+    border-radius: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 2px 8px;
+    margin: 8px 0 8px 14px;
+}
+
+.Timetable-button-ai {
+    background-color: #F2994A;
+}
+
+.Timetable-button-startup {
+    background-color: #219653;
+}
+
+.Timetable-button-tens {
+    background-color: #EB5757;
+}
+
+.Schedule-item {
+    border: 1px solid #EAEAEA;
+}
+
+.Schedule-item-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 14px;
+}
+
+.Schedule-item-speaker {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 0 0 14px;
+}*/
+
+.Footer {
+    align-items: center;
+    padding: 64px 0;
+    background-color: #333;
+    align-self: stretch;
+    margin: 0;
+    color: #fff;
+    width: auto;
+    max-width: none;
+}
+
+.Footer a {
+    color: #fff;
+}
+
+.Tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.Tickets h3 {
+    margin: 42px 0 0 0;
+}
+
+.Tickets-Grid {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.Tickets-Grid > :not(:last-child) {
+    margin: 0 32px 0 0;
+}
+
+.Ticket {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 240px;
+    height: 132px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    background: url("assets/icon/ticket.svg") no-repeat center;
+    background-size: cover;
+}
+
+.Ticket-Price {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.Schedule {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.Schedule-grid {
+    margin: 64px 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.Schedule-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 32px 24px 0 24px;
+}
+
+.Schedule-item:first-child {
+    margin: 0 24px 0 24px
+}
+
+.Schedule-item-time {
+    font-size: 42px;
+    font-weight: 300;
+    color: #555;
+}
+
+.Schedule-item-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: 600;
+}
+
+.Schedule-item-speaker {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 4px 0 0 0;
+    color: #222;
+}
+
+.Schedule-item-desc {
+    font-size: 16px;
+    margin: 4px 0 0 0;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+
+    .Section-cover-actions {
+        flex-direction: column;
+    }
+
+    .Section-cover-actions > :not(:last-child) {
+        margin: 0 0 16px 0;
+    }
+
+    .Cover {
+        width: 90%;
+    }
+
+    .Cover-green {
+        display: none;
+    }
+
+    .Section-info-container {
+        padding: 24px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Section-info-container > *:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+    .Info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Info-element {
+        align-items: center;
+        text-align: center;
+    }
+
+    .Info-element:not(:last-child) {
+        margin: 0 0 16px 0;
+    }
+
+    .Section-promo-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 64px 0;
+    }
+
+    .Section-promo-container > :not(:last-child) {
+        margin: 0 0 64px 0;
+    }
+
+    .Promo-icon {
+        width: 64px;
+        height: 64px;
+    }
+
+    .Section-EventDescription {
+        padding: 0 32px;
+    }
+
+    .EventDescription-title {
+        font-size: 42px;
+    }
+
+    .EventDescription-value {
+        font-size: 20px;
+    }
+
+    .Info-element {
+        margin: 0 0 16px 0;
+    }
+
+    .Socials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Socials > *:not(:last-child) {
+        margin: 0 0 24px 0;
+    }
+
+    .Speakers-Grid {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .Speakers-Grid > * {
+        margin: 0 0 52px 0;
+    }
+
+    .Tickets-Grid {
+        margin-top: 42px;
+        flex-direction: column;
+    }
+
+    .Tickets-Grid > :not(:last-child) {
+        margin: 0 0 42px 0;
+    }
+
+}

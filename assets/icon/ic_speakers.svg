@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>ic_speakers</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-15762 -2939)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 15762 2939L 15890 2939L 15890 3067L 15762 3067L 15762 2939Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="ic_speakers" clip-path="url(#clip-0)">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(15788 2946)" fill="#222222"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0C 0 14.6571 8.46857 28.0114 21.7143 34.3086L 21.7143 114L 32.5714 114L 32.5714 76L 43.4286 76L 43.4286 114L 54.2857 114L 54.2857 34.2543C 67.5314 28.0114 76 14.6571 76 0L 65.1429 0C 65.1429 7.19873 62.2832 14.1026 57.1929 19.1929C 54.6724 21.7133 51.6802 23.7127 48.3871 25.0767C 45.094 26.4408 41.5644 27.1429 38 27.1429C 30.8013 27.1429 23.8974 24.2832 18.8071 19.1929C 13.7168 14.1026 10.8571 7.19873 10.8571 0L 0 0ZM 38 0C 31.9743 0 27.1429 4.83143 27.1429 10.8571C 27.1429 16.8829 31.9743 21.7143 38 21.7143C 44.0257 21.7143 48.8571 16.8829 48.8571 10.8571C 48.8571 4.83143 44.0257 0 38 0Z"/>
+</defs>
+</svg>

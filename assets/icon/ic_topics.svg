@@ -1,0 +1,21 @@
+<svg width="128" height="128" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>ic_topics</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-16458 -2939)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 16458 2939L 16586 2939L 16586 3067L 16458 3067L 16458 2939Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="ic_topics" clip-path="url(#clip-0)">
+<g id="4">
+<use xlink:href="#path0_fill" transform="translate(16468 2939)" fill="#222222"/>
+<use xlink:href="#path1_fill" transform="translate(16468 2939)" fill="#222222"/>
+<use xlink:href="#path2_fill" transform="translate(16468 2939)" fill="#222222"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 128L 0 0L 23.4968 0L 23.4968 128L 0 128Z"/>
+<path id="path1_fill" d="M 20.6426 0L 87.2921 0L 87.2921 128L 20.6426 128L 20.6426 0ZM 72.7196 118.598L 72.7196 100.588L 82.6605 100.588L 83.7902 88.0142L 72.7196 88.0142L 72.7196 44.8566L 45.8339 44.8566L 23.4668 88.0142L 25.0483 100.588L 57.5822 100.588L 57.5822 118.598L 72.7196 118.598ZM 57.5822 88.0142L 37.9263 88.0142L 53.2896 57.7699L 57.5822 57.7699L 57.5822 88.0142Z"/>
+<path id="path2_fill" d="M 84.5032 128L 84.5032 0L 108 0L 108 128L 84.5032 128Z"/>
+</defs>
+</svg>
