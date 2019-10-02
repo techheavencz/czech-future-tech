@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6, p {
     background: linear-gradient(
             rgba(0, 0, 0, .7),
             rgba(0, 0, 0, .7)
-    ), url("assets/bg/feature_bg.jpg") no-repeat center center;
+    ), url("assets/bg/feature_bg.png") no-repeat center center;
     background-size: cover;
 }
 
@@ -91,8 +91,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .Cover-button--tinted {
-    color: #6FCF97;
-    border-color: #6FCF97;
+    color: #903068;
+    border-color: #903068;
 }
 
 .Cover-green {
@@ -240,14 +240,14 @@ h1, h2, h3, h4, h5, h6, p {
 .EventDescription-title {
     font-family: 'Zilla Slab Highlight', cursive;
     font-size: 64px;
-    color: #6FCF97;
+    color: #903068;
     text-align: center;
     font-weight: 900;
     margin-bottom: 52px;
 }
 
 .EventDescription-value > b {
-    color: #6FCF97;
+    color: #903068;
 }
 
 .Section-main {
