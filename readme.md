@@ -14,7 +14,7 @@ Start's local server (usually at URL http://localhost:5000/) with app.
 
 ### Step 2 - Deploy app to server
 ```
-firebase deploy
+firebase deploy --project 'czech-future-tech'
 ```
 It can call only users with access to [Firebase `czech-future-tech` project](https://console.firebase.google.com/project/czech-future-tech).
 
