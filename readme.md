@@ -8,7 +8,7 @@
 
 ### Step 1 - Run app locally
 ```
-firebase serve
+firebase serve --project 'czech-future-tech'
 ```
 Start's local server (usually at URL http://localhost:5000/) with app.
 
