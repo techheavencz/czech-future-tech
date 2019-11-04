@@ -3,239 +3,128 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script>
-      document.getElementsByTagName("html")[0].className += " js";
-    </script>
     <link rel="stylesheet" href="assets/css/style.css?v=1" />
     <title>CzechFuture.tech - program</title>
   </head>
 
   <body>
-    <header class="cd-main-header text-center flex flex-column flex-center">
-      <p class="margin-top-md margin-bottom-xl">
-        👈
-        <a class="cd-article-link" href="https://czechfuture.tech/"
-          >Jít zpět na hlavní stránku</a
-        >
-      </p>
+    <div class="scheduleContainer">
+      <!-- TIMES -->
+      <div class="time start-800">8:00</div>
+      <div class="time start-830">8:30</div>
+      <div class="time start-900">9:00</div>
+      <div class="time start-930">9:30</div>
+      <div class="time start-1000">10:00</div>
+      <div class="time start-1030">10:30</div>
+      <div class="time start-1100">11:00</div>
+      <div class="time start-1130">11:30</div>
+      <div class="time start-1200">12:00</div>
+      <div class="time start-1230">12:30</div>
+      <div class="time start-1300">13:00</div>
+      <div class="time start-1330">13:30</div>
+      <div class="time start-1400">14:00</div>
+      <div class="time start-1430">14:30</div>
+      <div class="time start-1500">15:00</div>
+      <div class="time start-1530">15:30</div>
+      <div class="time start-1600">16:00</div>
+      <div class="time start-1630">16:30</div>
+      <div class="time start-1700">17:00</div>
+      <div class="time start-1730">17:30</div>
+      <div class="time start-1800">18:00</div>
+      <div class="time start-1830">18:30</div>
+      <div class="time start-1900">19:00</div>
+      <div class="time start-1930">19:30</div>
+      <div class="time start-2000">20:00</div>
+      <div class="time start-2030">20:30</div>
+      <div class="time start-2100">21:00</div>
+      <div class="time start-2130">21:30</div>
 
-      <h1 class="text-xl">Program - CzechFuture.tech</h1>
-    </header>
-
-    <div
-      class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule"
-    >
-      <div class="cd-schedule__timeline">
-        <ul>
-          <li><span>08:30</span></li>
-          <li><span>09:00</span></li>
-          <li><span>09:30</span></li>
-          <li><span>10:00</span></li>
-          <li><span>10:30</span></li>
-          <li><span>11:00</span></li>
-          <li><span>11:30</span></li>
-          <li><span>12:00</span></li>
-          <li><span>12:30</span></li>
-          <li><span>13:00</span></li>
-          <li><span>13:30</span></li>
-          <li><span>14:00</span></li>
-          <li><span>14:30</span></li>
-          <li><span>15:00</span></li>
-          <li><span>15:30</span></li>
-          <li><span>16:00</span></li>
-          <li><span>16:30</span></li>
-          <li><span>17:00</span></li>
-          <li><span>17:30</span></li>
-          <li><span>18:00</span></li>
-          <li><span>18:30</span></li>
-          <li><span>19:00</span></li>
-          <li><span>19:30</span></li>
-          <li><span>20:00</span></li>
-          <li><span>20:30</span></li>
-          <li><span>21:00</span></li>
-          <li><span>21:30</span></li>
-          <li><span>22:00</span></li>
-          <li><span>22:30</span></li>
-          <li><span>23:00</span></li>
-          <li><span>23:30</span></li>
-          <li><span>00:00</span></li>
-
-        </ul>
+      <!-- EVENTS -->
+      <div class="event stage-ostatni-mistnost start-830 end-830 length-4">
+        Registrace + Zahájení <span></span>
       </div>
-      <!-- .cd-schedule__timeline -->
-
-      <div class="cd-schedule__events">
-        <ul>
-          <li class="cd-schedule__group">
-            <div class="cd-schedule__top-info"><span>Velký sál</span></div>
-
-            <ul>
-              <li class="cd-schedule__event">
-                <a
-                  data-start="08:30"
-                  data-end="09:00"
-                  data-content="event-abs-circuit"
-                  data-event="event-1"
-                  href="#0"
-                >
-                  <em class="cd-schedule__name">Registrace + Zahájení</em>
-                </a>
-              </li>
-
-              <li class="cd-schedule__event">
-                <a data-start="09:00" data-end="10:00" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Jak vytváříme tvůrce budoucnosti</em>
-                </a>
-              </li>
-
-              <li class="cd-schedule__event">
-                <a data-start="10:00" data-end="11:00" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">AR/VR</em>
-                </a>
-              </li>
-
-              <li class="cd-schedule__event">
-                <a data-start="11:00" data-end="11:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Přestávka</em>
-                </a>
-              </li>
-
-              <li class="cd-schedule__event">
-                <a data-start="11:30" data-end="12:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">VR/AR světy a aplikace</em>
-                </a>
-              </li>
-
-              <li class="cd-schedule__event">
-                <a data-start="12:30" data-end="13:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Oběd + networking</em>
-                </a>
-              </li>
-
-              <li class="cd-schedule__event">
-                <a data-start="13:30" data-end="14:00" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Lightning talks</em>
-                </a>
-              </li>
-              <li class="cd-schedule__event">
-                <a data-start="14:00" data-end="15:00" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Diskuze o budoucnosti AI</em>
-                </a>
-              </li>
-              <li class="cd-schedule__event">
-                <a data-start="15:00" data-end="15:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Dědictví kryptoměn</em>
-                </a>
-              </li>
-              <li class="cd-schedule__event">
-                <a data-start="15:30" data-end="16:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Příběh Beat Saberu</em>
-                </a>
-              </li>
-              <li class="cd-schedule__event">
-                <a data-start="16:30" data-end="17:00" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Přestávka</em>
-                </a>
-              </li>
-              <li class="cd-schedule__event">
-                <a data-start="17:00" data-end="17:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">UX a draci</em>
-                </a>
-              </li>
-              <li class="cd-schedule__event">
-                <a data-start="17:30" data-end="18:00" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Budoucnost plateb a konec hotovosti</em>
-                </a>
-              </li>
-              <li class="cd-schedule__event">
-                <a data-start="18:00" data-end="19:00" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Internet věcí a průmysl 4.0 optikou českého startupu</em>
-                </a>
-              </li>
-              <li class="cd-schedule__event">
-                <a data-start="19:30" data-end="20:00" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Ukončení</em>
-                </a>
-              </li>
-              <li class="cd-schedule__event">
-                <a data-start="20:00" data-end="00:00" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                  <em class="cd-schedule__name">Afterparty</em>
-                </a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="cd-schedule__group">
-            <div class="cd-schedule__top-info"><span>Malý sál</span></div>
-
-            <ul>
-              <li class="cd-schedule__event">
-                <a data-start="08:30" data-end="09:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                  <em class="cd-schedule__name">Registrace + Zahájení</em>
-                </a>
-              </li>
-
-              <li class="cd-schedule__event">
-                <a
-                  data-start="11:30"
-                  data-end="13:00"
-                  data-content="event-restorative-yoga"
-                  data-event="event-4"
-                  href="#0"
-                >
-                  <em class="cd-schedule__name">Restorative Yoga</em>
-                </a>
-              </li>
-
-              <li class="cd-schedule__event">
-                <a
-                  data-start="13:30"
-                  data-end="15:00"
-                  data-content="event-abs-circuit"
-                  data-event="event-1"
-                  href="#0"
-                >
-                  <em class="cd-schedule__name">Abs Circuit</em>
-                </a>
-              </li>
-
-              <li class="cd-schedule__event">
-                <a
-                  data-start="15:45"
-                  data-end="16:45"
-                  data-content="event-yoga-1"
-                  data-event="event-3"
-                  href="#0"
-                >
-                  <em class="cd-schedule__name">Yoga Level 1</em>
-                </a>
-              </li>
-            </ul>
-          </li>
+      <div class="event stage-mala-mistnost start-900 end-930 length-2">
+        Jak vytváříme tvůrce budoucnosti <span>Pavel König - Nvias</span>
+      </div>
+      <div class="event stage-mala-mistnost start-1000 end-1100 length-2">
+        Vyplatí se experimentovat s DAO?
+        <span>Matej Nemček - vue-polkadot.js.org</span>
+      </div>
+      <div class="event stage-velka-mistnost start-930 end-1030 length-2">
+        AR/VR <span>Martin Kotek - AVRAR</span>
       </div>
 
-      <div class="cd-schedule-modal">
-        <header class="cd-schedule-modal__header">
-          <div class="cd-schedule-modal__content">
-            <span class="cd-schedule-modal__date"></span>
-            <h3 class="cd-schedule-modal__name"></h3>
-          </div>
-
-          <div class="cd-schedule-modal__header-bg"></div>
-        </header>
-
-        <div class="cd-schedule-modal__body">
-          <div class="cd-schedule-modal__event-info"></div>
-          <div class="cd-schedule-modal__body-bg"></div>
-        </div>
-
-        <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+      <div class="event stage-ostatni-mistnost start-1130 end-1130 length-4">
+        Přestávka <span></span>
       </div>
 
-      <div class="cd-schedule__cover-layer"></div>
+      <div class="event stage-mala-mistnost start-1200 end-1230 length-2">
+        VR/AR světy a aplikace <span>Karel Hulec - Neos</span>
+      </div>
+      <div class="event stage-velka-mistnost start-1200 end-1200 length-2">
+        Voiceboti, snadno a rychle
+        <span>Vašek Löffelmann - ChytreCallcentrum.cz</span>
+      </div>
+      <div class="event stage-velka-mistnost start-1230 end-1230 length-2">
+        Zajímavý hardware a kde ho najít
+        <span>David Žahour - Student Dreamers</span>
+      </div>
+      <div class="event stage-ostatni-mistnost start-1300 end-1330 length-4">
+        Oběd + Networking<span></span>
+      </div>
+
+      <div class="event stage-ostatni-mistnost start-1400 end-1400 length-4">
+        Lightning talks <span></span>
+      </div>
+      <div class="event stage-mala-mistnost start-1430 end-1430 length-2">
+        Diskuze o budoucnosti AI <span>Tomáš Mikolov - Facebook</span>
+      </div>
+
+      <div class="event stage-velka-mistnost start-1430 end-1430 length-2">
+        Technologie svobody a nesvobody
+        <span>Martin Urza - Svobodný přístav</span>
+      </div>
+
+      <div class="event stage-mala-mistnost start-1500 end-1500 length-2">
+        Dědictví kryptoměn <span>Pavel Urbaczka - Blockchain Legal</span>
+      </div>
+      <div class="event stage-velka-mistnost start-1500 end-1500 length-2">
+        Rozšířená realita pro Asset management
+        <span>Ondřej Švihálek - Unicorn</span>
+      </div>
+      <div class="event stage-mala-mistnost start-1530 end-1600 length-2">
+        Příběh Beat Saberu <span>Michaela Dvořáková - Beat Saber</span>
+      </div>
+
+      <div class="event stage-velka-mistnost start-1530 end-1600 length-2">
+        Prečo má Bitcoin hodnotu? <span>Maťo Galvánek - octopusEngine</span>
+      </div>
+      <div class="event stage-ostatni-mistnost start-1630 end-1700 length-4">
+        Přestávka <span></span>
+      </div>
+      <div class="event stage-mala-mistnost start-1730 end-1730 length-2">
+        UX a draci <span>Jan Roose - Fireball</span>
+      </div>
+      <div class="event stage-mala-mistnost start-1800 end-1800 length-2">
+        Budoucnost plateb a konec hotovosti
+        <span>Pavel Svoboda - Diebold Nixdorf</span>
+      </div>
+      <div class="event stage-velka-mistnost start-1730 end-1800 length-2">
+        Budoucnost API? Zkusme GraphQL <span>Jindřich Máca - Qest</span>
+      </div>
+      <div class="event stage-mala-mistnost start-1830 end-1900 length-2">
+        Internet věcí a průmysl 4.0 optikou českého startupu
+        <span>Pavel Hübner - HARDWARIO</span>
+      </div>
+      <div class="event stage-velka-mistnost start-1830 end-1900 length-2">
+        ERP je mrtvý, ať žijou integrace <span>Petr Ferschmann - Dativery</span>
+      </div>
+      <div class="event stage-ostatni-mistnost start-1930 end-2000 length-4">
+        Ukončení <span></span>
+      </div>
+      <div class="event stage-ostatni-mistnost start-2030 end-2130 length-4">
+        Afterparty <span></span>
+      </div>
     </div>
-
-    <script src="assets/js/util.js?v=1"></script>
-    <script src="assets/js/main.js?v=1"></script>
   </body>
 </html>
