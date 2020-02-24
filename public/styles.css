@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6, p {
 .Cover {
     display: block;
     width: 70%;
+    z-index: 2;
 }
 
 .Cover-button {
@@ -132,7 +133,7 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: row;
     justify-content: start;
     flex-wrap: wrap;
-
+    padding-left: 20%;
     flex: 1;
 
     color: #000;
@@ -198,7 +199,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .Section-promo-container > :not(:last-child) {
-    margin: 0 112px 0 0;
+    margin: 0 5% 0 0;
 }
 
 .Promo {
@@ -218,6 +219,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 18px;
     margin-top: 42px;
     display: block;
+    text-align: center;
 }
 
 .Section-EventDescription {
@@ -675,6 +677,7 @@ h1, h2, h3, h4, h5, h6, p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: 0;
     }
 
     .Info-element {
