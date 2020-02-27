@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6, p {
 .Cover {
     display: block;
     width: 70%;
+    z-index: 2;
 }
 
 .Cover-button {
@@ -132,7 +133,7 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: row;
     justify-content: start;
     flex-wrap: wrap;
-
+    padding-left: 20%;
     flex: 1;
 
     color: #000;
@@ -198,7 +199,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .Section-promo-container > :not(:last-child) {
-    margin: 0 112px 0 0;
+    margin: 0 5% 0 0;
 }
 
 .Promo {
@@ -218,6 +219,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 18px;
     margin-top: 42px;
     display: block;
+    text-align: center;
 }
 
 .Section-EventDescription {
@@ -366,14 +368,14 @@ h1, h2, h3, h4, h5, h6, p {
 
 .Speakers {
     align-items: center;
-    max-width: 900px;
+/ / max-width: 900 px;
     overflow: hidden;
     margin-bottom: 128px;
     flex-direction: column;
 }
 
 .Speakers-Grid {
-    margin: 64px 0 0 0;
+    margin: 64px 0 50px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -389,30 +391,63 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: column;
     align-items: center;
 }
+.Speaker-header{
+    margin-top: 64px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101px;
+}
 
 .Speaker-img {
-    width: 128px;
-    height: 128px;
-    border-radius: 64px;
+    width: 200px;
+    height: 200px;
+    border-radius: 98px;
     background-color: #eaeaea;
 
     overflow: hidden;
 }
 
 .Speaker-name {
+    font-style: normal;
+    font-weight: bold;
     font-size: 24px;
+    line-height: 30px;
     text-align: center;
-    margin-top: 24px;
-    color: #222;
+    color: #111111;
+    margin: 17px 0;
+}
+
+.Speaker-name-company {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #111111;
 }
 
 .Speaker-topic {
-    font-size: 16px;
-    text-transform: uppercase;
+    display: flex;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
     text-align: center;
-    margin-top: 8px;
-    color: #222;
-    font-weight: 700;
+    background-color: #333333;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px 15px;
+    float: right;
+}
+.Speakers-footer{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    /* identical to box height */
+
+    text-align: center;
 }
 
 .Speaker-company {
@@ -675,6 +710,7 @@ h1, h2, h3, h4, h5, h6, p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: 0;
     }
 
     .Info-element {
