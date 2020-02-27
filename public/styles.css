@@ -295,7 +295,8 @@ h1, h2, h3, h4, h5, h6, p {
 .ContentColumn-Section > h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 64px;
-    color: #222;
+    color: #FFF;
+    padding-top: 60px;
 }
 
 .Venue {
@@ -303,6 +304,10 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 700px;
     overflow: hidden;
     margin-bottom: 128px;
+}
+.Venue-section{
+    background-color: #111111;
+    color: #FFFFFF;
 }
 
 .Venue-Gallery {
